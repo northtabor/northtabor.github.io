@@ -1,0 +1,780 @@
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .unselectable {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: default;
+    }
+
+    html {
+        background-color: rgb(23, 23, 23);
+        height: 150vh;
+    }
+    #nav-bar {
+        width: 100vw;
+        background-color: rgb(26, 26, 26);
+        position: fixed;
+        text-align: center;
+        padding: 0.5vw;
+
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    #nav-bar:hover {
+        opacity: 1;
+    }
+    .show {
+        opacity: 1;
+    }
+    #main-logo {
+        display: none;
+    }
+    .nav-tabor {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+
+        margin: none;
+
+        color: white;
+        background-color: rgb(26, 26, 26);
+
+        border-style: solid;
+        border-width: 0.15vw;
+        border-radius: 1vw;
+        border-color: rgb(26, 26, 26);
+
+        outline: none;
+
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    .nav-tabor:hover {
+        color: rgb(0, 134, 163);
+    }
+    #nav-buttons {
+        width: 100%;
+    }
+    .nav-learn {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5vw;
+        font-weight: 400;
+
+        margin: none;
+        width: 30%;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+
+        color: white;
+        background-color: rgb(26, 26, 26);
+
+        border-style: solid;
+        border-width: 0.15vw;
+        border-radius: 1vw;
+        border-color: rgb(26, 26, 26);
+
+        outline: none;
+
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    .nav-learn:hover {
+        color: rgb(0, 134, 163);
+        background-color: rgb(50, 50, 50);
+    }
+
+    #landing {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../media/cover.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #landing-over {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.6);
+        text-align: center;
+    }
+
+    #landing-title {
+        padding-bottom: 3vh;
+        font-weight: 700;
+        margin: 0;
+        padding-top: 10vh;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15vw;
+
+        color: white;
+        text-align: center;
+    }
+
+    #landing-sub-div {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    #landing-sub {
+        padding-top: 3vh;
+        padding-bottom: 10vh;
+        margin: 0;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 6vw;
+
+        color: white;
+    }
+
+    .landing-learn {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5.5vw;
+        font-weight: 400;
+
+        width: 70vw;
+
+        margin-bottom: 2.5vh;
+
+        color: white;
+        background-color: rgba(0, 0, 0, 0.1);
+
+        border-style: solid;
+        border-width: 0.6vw;
+        border-radius: 3vw;
+        border-color: white;
+
+        outline: none;
+
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    .landing-learn:hover {
+        color: black;
+        background-color: white;
+    }
+
+    #about {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 3vh;
+        width: 100vw;
+        background-color: rgb(238, 238, 238);
+    }
+
+    #title-bar {
+        margin: 0;
+        padding: 0;
+        width: inherit;
+        background-color: white;
+    }
+    #title-text {
+        font-weight: 600;
+        margin: 0;
+        padding: 1.5vh;
+        padding-left: 2vw;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 11vw;
+        text-align: center;
+    }
+
+    .sub-box {
+        margin-top: 5vh;
+        margin-left: 5vw;
+        width: 90vw;
+        text-align: center;
+    }
+    .subtitle-text {
+        margin: 0;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 10vw;
+        color: rgb(0, 134, 163);
+    }
+    .sub-para {
+        margin:0;
+        padding-top:2vh;
+        font-family: 'EB Garamond', serif;
+        font-size: 5vw;
+    }
+
+    #display-block {
+        text-align: left;
+        padding-top: 2vh;
+    }
+    .display-text {
+        margin: 0;
+        padding-left: 2vw;
+        padding-bottom: 0.5vh;
+        font-size: 7vw;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .little-one {
+        text-align: center;
+        width: 15%;
+        float: left;
+        color: rgb(0, 134, 163);
+    }
+    .little-two {
+        text-align: left;
+        width: 85%;
+        float: right;
+        padding-bottom: 3vh;
+    }
+
+
+
+    #people {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10vh;
+        width: 100vw;
+        background-color: rgb(238, 238, 238);
+    }
+    .leader-quote {
+        padding: 0;
+        margin: 0;
+        font-family: 'EB Garamond', serif;
+        font-weight: 400;
+        font-size: 7vw;
+        color: black;
+        text-align: center;
+    }
+    .position-title {
+        text-align: center;
+        margin: 0;
+        margin-top: 5vh;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 10vw;
+        color: rgb(0, 134, 163);
+    }
+    .name-title {
+        font-size: 5vw;
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        margin-top: 5vh;
+        padding: 0;
+    }
+    .name-desc {
+        margin:0;
+        padding-top:2vh;
+        font-family: 'EB Garamond', serif;
+        font-size: 4vw;
+    }
+
+    #contact {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        background-color: rgb(238, 238, 238);
+        text-align: center;
+
+        padding-bottom: 2.5vh;
+    }
+    .com-quote {
+        padding: 0;
+        padding-top: 2vh;
+        margin: 0;
+        font-family: 'EB Garamond', serif;
+        font-weight: 400;
+        font-size: 7vw;
+        color: black;
+        text-align: center;
+    }
+    .sub-con {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    .my-form {
+        width: 100%;
+    }
+    .input-text {
+        text-align: left;
+        font-size: 5vw;
+        font-family: 'Raleway', sans-serif;
+        color: rgb(0, 134, 163);
+        padding: 0;
+        margin: 0;
+
+        padding-bottom: 0;
+    }
+    .name {
+        width: 100%;
+        outline: none;
+        border: 0.1vw solid black;
+        border-radius: 4px;
+        font-family: 'Quicksand', sans-serif;
+
+        font-size: 4.5vw;
+        padding: 1vw;
+
+        margin-bottom: 3vh;
+        background-color: white;
+
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    .comments {
+        height: 15vh;
+    }
+    .name:focus {
+        background-color: rgb(245, 245, 245);
+        border-color: rgb(0, 134, 163);
+    }
+    .submit-button {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 7vw;
+        border: none;
+        border: 0.2vw solid black;
+
+        background-color: rgb(23, 23, 23);
+        color: white;
+
+        margin-bottom: 2.2vh;
+
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    .submit-button:hover {
+        color: rgb(23, 23, 23);
+        background-color: white;
+    }
+    #accredited {
+        padding: none;
+        margin: none;
+
+        font-size: 4vw;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }
+
+    #disclaimer {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        background-color: inherit;
+
+        text-align: center;
+    }
+    #disc {
+        margin: 0;
+        padding: 2vw;
+        padding-bottom: 1vw;
+        color: rgb(240, 240, 240);
+        line-height: 2vh;
+        text-align: center;
+
+        font-family: 'Raleway', sans-serif;
+        font-size: 3vw;
+    }
+    #info {
+        margin: 0;
+        padding: 2vw;
+        padding-top: 1vw;
+        color: white;
+
+        font-family: 'Quicksand', sans-serif;
+        font-size: 7vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* Desktop */
+    .unselectable {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: default;
+    }
+
+    html {
+        background-color: rgb(23, 23, 23);
+        height: 150vh;
+    }
+    #nav-bar {
+        width: 100vw;
+        background-color: rgb(26, 26, 26);
+        position: fixed;
+        text-align: center;
+        padding: 0.5vw;
+
+        opacity: 0.5;
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    #nav-bar:hover {
+        opacity: 1;
+    }
+    .show {
+        opacity: 1;
+    }
+    #main-logo {
+        width: 30%;
+        height: 7vh;
+        float: left;
+    }
+    .nav-tabor {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+
+        margin: none;
+
+        color: white;
+        background-color: rgb(26, 26, 26);
+
+        border-style: solid;
+        border-width: 0.15vw;
+        border-radius: 1vw;
+        border-color: rgb(26, 26, 26);
+
+        outline: none;
+
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    .nav-tabor:hover {
+        color: rgb(0, 134, 163);
+    }
+    #nav-buttons {
+        width: 50%;
+        float: right;
+    }
+    .nav-learn {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5vw;
+        font-weight: 400;
+
+        margin: none;
+        width: 30%;
+        height: 5vh;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+
+        color: white;
+        background-color: rgb(26, 26, 26);
+
+        border-style: solid;
+        border-width: 0.15vw;
+        border-radius: 1vw;
+        border-color: rgb(26, 26, 26);
+
+        outline: none;
+
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    .nav-learn:hover {
+        color: rgb(0, 134, 163);
+        background-color: rgb(50, 50, 50);
+    }
+
+    #landing {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../media/cover.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #landing-over {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.6);
+        text-align: center;
+    }
+
+    #landing-title {
+        padding: 14vh;
+        padding-bottom: 3vh;
+        font-weight: 700;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 6vw;
+
+        color: white;
+    }
+
+    #landing-sub-div {
+        width: 50vw;
+        margin-left: 25vw;
+    }
+    #landing-sub {
+        padding-top: 3vh;
+        padding-bottom: 30vh;
+        margin: 0;
+        font-family: 'Raleway', sans-serif;
+        font-size: 3vw;
+
+        color: white;
+    }
+
+    .landing-learn {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vw;
+        font-weight: 400;
+
+        margin-left: 3vw;
+        margin-right: 3vw;
+
+        width: 20vw;
+
+        color: white;
+        background-color: rgba(0, 0, 0, 0.1);
+
+        border-style: solid;
+        border-width: 0.3vw;
+        border-radius: 3vw;
+        border-color: white;
+
+        outline: none;
+
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    .landing-learn:hover {
+        color: black;
+        background-color: white;
+    }
+
+    #about {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(238, 238, 238);
+    }
+
+    #title-bar {
+        margin: 0;
+        padding: 0;
+        width: inherit;
+        background-color: white;
+    }
+    #title-text {
+        font-weight: 600;
+        margin: 0;
+        padding: 1.5vh;
+        padding-left: 2vw;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.5vw;
+        text-align: left;
+    }
+
+    .sub-box {
+        margin-top: 12vh;
+        margin-left: 10vw;
+        width: 80vw;
+    }
+    .subtitle-text {
+        margin: 0;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 2.5vw;
+        color: rgb(0, 134, 163);
+    }
+    #para-box {
+        width: 50vw;
+        float: left;
+        height: 35vh;
+    }
+    .sub-para {
+        margin:0;
+        padding-top:2vh;
+        font-family: 'EB Garamond', serif;
+        font-size: 1.75vw;
+    }
+
+    #display-block {
+        text-align: left;
+        width: 30vw;
+        float: right;
+        height: 35vh;
+    }
+    .display-text {
+        margin: 0;
+        padding: 2.5vh;
+        padding-left: 2vw;
+        font-size: 2.2vw;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .little-one {
+        text-align: center;
+        width: 5vw;
+        float: left;
+        color: rgb(0, 134, 163);
+    }
+    .little-two {
+        text-align: left;
+        width: 25vw;
+        float: right;
+    }
+    .goal-text {
+        padding-top: 5vh;
+    }
+
+
+
+    #people {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10vh;
+        width: 100vw;
+        background-color: rgb(238, 238, 238);
+    }
+    .leader-quote {
+        padding: 0;
+        margin: 0;
+        font-family: 'EB Garamond', serif;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: black;
+        text-align: center;
+    }
+    .position-title {
+        text-align: center;
+        margin: 0;
+        margin-top: 5vh;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 2.5vw;
+        color: rgb(0, 134, 163);
+    }
+    .name-title {
+        font-size: 1.6vw;
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        margin-top: 5vh;
+        padding: 0;
+    }
+    .name-desc {
+        margin:0;
+        padding-top:2vh;
+        font-family: 'EB Garamond', serif;
+        font-size: 1.5vw;
+    }
+
+    #contact {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        background-color: rgb(238, 238, 238);
+        text-align: center;
+
+        padding-bottom: 2.5vh;
+    }
+    .com-quote {
+        padding: 0;
+        padding: 5vh;
+        margin: 0;
+        font-family: 'EB Garamond', serif;
+        font-weight: 400;
+        font-size: 2.5vw;
+        color: black;
+        text-align: center;
+    }
+    .sub-con {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    .my-form {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .input-text {
+        text-align: left;
+        font-size: 1.5vw;
+        font-family: 'Raleway', sans-serif;
+        color: rgb(0, 134, 163);
+        padding: 0;
+        margin: 0;
+
+        padding-bottom: 0.5vw;
+    }
+    .name {
+        width: 100%;
+        outline: none;
+        border: 0.1vw solid black;
+        border-radius: 4px;
+        font-family: 'Quicksand', sans-serif;
+
+        font-size: 1.2vw;
+        padding: 0.5vw;
+
+        margin-bottom: 3vh;
+        background-color: white;
+
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    .comments {
+        height: 15vh;
+    }
+    .name:focus {
+        background-color: rgb(245, 245, 245);
+        border-color: rgb(0, 134, 163);
+    }
+    .submit-button {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        width: 30%;
+        font-size: 1.5vw;
+        border: none;
+        border: 0.2vw solid black;
+
+        background-color: rgb(23, 23, 23);
+        color: white;
+
+        margin-bottom: 2.2vh;
+
+        webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+    }
+    .submit-button:hover {
+        color: rgb(23, 23, 23);
+        background-color: white;
+    }
+    #accredited {
+        padding: none;
+        margin: none;
+
+        font-size: 1.3vw;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }
+
+    #disclaimer {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        background-color: inherit;
+
+        text-align: center;
+    }
+    #disc {
+        margin: 0;
+        padding: 2vw;
+        padding-bottom: 1vw;
+        color: rgb(240, 240, 240);
+        line-height: 3vh;
+        text-align: center;
+
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.5vw;
+    }
+    #info {
+        margin: 0;
+        padding: 2vw;
+        padding-top: 1vw;
+        color: white;
+
+        font-family: 'Quicksand', sans-serif;
+        font-size: 2vw;
+    }
+}
